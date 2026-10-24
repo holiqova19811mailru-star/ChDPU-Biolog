@@ -96,14 +96,18 @@ export const HeroSection: React.FC = () => {
                 </div>
               </div>
 
-              {/* Center Organelle Visuals */}
+              {/* Center Official Emblem Visual */}
               <div className="relative z-10 my-auto text-center space-y-3">
-                <div className="inline-block p-4 rounded-2xl bg-gradient-to-br from-emerald-600/40 to-teal-500/20 backdrop-blur-md border border-emerald-400/40 shadow-inner">
-                  <Dna className="w-14 h-14 text-emerald-300 mx-auto animate-pulse" />
+                <div className="inline-block p-2.5 rounded-3xl bg-white dark:bg-[#11241D] backdrop-blur-md border-2 border-emerald-400/50 shadow-2xl shadow-emerald-950/50 group-hover:scale-105 transition-transform duration-300">
+                  <img
+                    src="/assets/aistudio/5adbc420-0557-4ccc-9f47-ee071f5e7094_137394c9.png"
+                    alt="BioLab ChDPU Emblemasi"
+                    className="w-32 h-32 object-contain rounded-2xl mx-auto"
+                  />
                 </div>
                 <div>
-                  <h3 className="font-extrabold text-lg text-emerald-100">Hujayra & Molekulyar Dinamika</h3>
-                  <p className="text-xs text-emerald-300/80">Reallikka mos biofizik hisob-kitoblar</p>
+                  <h3 className="font-extrabold text-lg text-emerald-100 tracking-tight">BioLab — ChDPU</h3>
+                  <p className="text-xs text-emerald-300/90 font-medium">O'rgan • Tadqiq et • Rivojlan</p>
                 </div>
               </div>
 

@@ -14,13 +14,22 @@ export const Footer: React.FC = () => {
           
           {/* Brand info */}
           <div className="space-y-3 md:col-span-1">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-[#176B4D] flex items-center justify-center text-white font-extrabold text-sm">
-                B
+            <div className="flex items-center space-x-2.5">
+              <div className="w-10 h-10 rounded-full bg-white dark:bg-[#152721] p-0.5 border border-emerald-500/30 flex items-center justify-center shrink-0 shadow-xs overflow-hidden">
+                <img
+                  src="/assets/aistudio/5adbc420-0557-4ccc-9f47-ee071f5e7094_137394c9.png"
+                  alt="BioLab Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
-              <span className="font-extrabold text-lg text-emerald-950 dark:text-emerald-100">
-                Bio<span className="text-[#2D9B75] dark:text-[#62C9A5]">Lab</span>
-              </span>
+              <div>
+                <span className="font-extrabold text-lg text-emerald-950 dark:text-emerald-100">
+                  Bio<span className="text-[#2D9B75] dark:text-[#62C9A5]">Lab</span>
+                </span>
+                <span className="text-[10px] ml-1.5 font-bold px-1.5 py-0.2 rounded bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300">
+                  ChDPU
+                </span>
+              </div>
             </div>
             <p className="text-xs leading-relaxed text-stone-600 dark:text-stone-400">
               {t('brandSub')}. Universitet talabalari va o\'qituvchilari uchun interaktiv biologiya ta\'limi.

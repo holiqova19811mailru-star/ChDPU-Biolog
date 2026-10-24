@@ -63,10 +63,14 @@ export const Header: React.FC = () => {
           {/* Logo & Brand */}
           <div
             onClick={() => setActivePage('home')}
-            className="flex items-center space-x-3 cursor-pointer group select-none"
+            className="flex items-center space-x-2.5 cursor-pointer group select-none"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#176B4D] via-[#2D9B75] to-[#62C9A5] flex items-center justify-center text-white shadow-md shadow-emerald-900/20 group-hover:scale-105 transition-transform duration-200">
-              <span className="font-extrabold text-xl tracking-tighter">B</span>
+            <div className="relative w-11 h-11 rounded-full bg-white dark:bg-[#152721] p-0.5 border border-emerald-500/30 shadow-md shadow-emerald-950/20 group-hover:scale-105 transition-transform duration-200 shrink-0 overflow-hidden flex items-center justify-center">
+              <img
+                src="/assets/aistudio/5adbc420-0557-4ccc-9f47-ee071f5e7094_137394c9.png"
+                alt="BioLab ChDPU Logotipi"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <div className="flex items-center space-x-1.5">
@@ -74,11 +78,11 @@ export const Header: React.FC = () => {
                   Bio<span className="text-[#2D9B75] dark:text-[#62C9A5]">Lab</span>
                 </span>
                 <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700">
-                  EDU
+                  ChDPU
                 </span>
               </div>
-              <p className="text-[11px] leading-none text-emerald-700/80 dark:text-emerald-400/80 hidden sm:block font-medium">
-                {t('brandTagline')}
+              <p className="text-[10px] leading-none text-emerald-700/80 dark:text-emerald-400/80 hidden sm:block font-medium">
+                Biologiya ta'lim platformasi
               </p>
             </div>
           </div>
