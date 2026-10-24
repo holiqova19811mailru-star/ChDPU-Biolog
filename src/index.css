@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #176B4D;
+    --primary-dark: #104C36;
+    --secondary: #2D9B75;
+    --accent: #62C9A5;
+    --bg-light: #F7FAF8;
+    --bg-dark: #101916;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-light);
+    color: #0D1C16;
+    overflow-x: hidden;
+  }
+
+  .dark body {
+    background-color: var(--bg-dark);
+    color: #ECF8F3;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}

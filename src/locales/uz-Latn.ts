@@ -1,0 +1,137 @@
+export const uzLatn = {
+  // Brand
+  brandName: 'BioLab',
+  brandTagline: 'Biologiyani ko\'rib, sinab, o\'rganing!',
+  brandSub: 'Interaktiv biologiya ta\'lim platformasi',
+
+  // Navigation
+  navHome: 'Bosh sahifa',
+  navSubjects: 'Fanlar katalogi',
+  navLabs: 'Virtual laboratoriyalar',
+  navGames: 'Interaktiv o\'yinlar',
+  navAtlas: '3D Atlas',
+  navQuizzes: 'Testlar va imtihon',
+  navLibrary: 'Kutubxona',
+  navAITutor: 'AI Ustoz',
+  navUzbekistan: 'O\'zbekiston tabiati',
+  navObserver: 'Tabiat tadqiqotchisi',
+  navCabinet: 'Shaxsiy kabinet',
+  navTeacher: 'O\'qituvchi xonasi',
+  navAdmin: 'Admin panel',
+  navSignIn: 'Kirish',
+  navSignOut: 'Chiqish',
+
+  // Hero Section
+  heroTitle: 'Biologiyani ko\'rib, sinab, o\'rganing!',
+  heroSubtitle: 'Interaktiv tajribalar, virtual laboratoriyalar va qiziqarli topshiriqlar orqali tirik tabiat sirlarini kashf eting.',
+  heroStartBtn: 'O\'rganishni boshlash',
+  heroLabBtn: 'Virtual laboratoriyani ochish',
+  heroStatStudents: '12,500+ talabalar',
+  heroStatLabs: '8 ta to\'liq virtual laboratoriya',
+  heroStatTopics: '30+ universitet mavzulari',
+  heroStatSpecies: 'O\'zbekiston Qizil kitobi turlari',
+
+  // Daily features
+  dailyFactTitle: 'Bugungi biologik fakt',
+  dailyQuestionTitle: 'Kun savoli',
+  checkAnswer: 'Javobni tekshirish',
+  revealAnswer: 'To\'g\'ri javobni ko\'rish',
+  correctAlert: 'Ajoyib! Javobingiz to\'g\'ri.',
+  incorrectAlert: 'Noto\'g\'ri. Yana bir bor o\'ylab ko\'ring.',
+
+  // Common UI
+  learnMore: 'Batafsil',
+  startQuiz: 'Testni boshlash',
+  openLab: 'Laboratoriyani ochish',
+  playGame: 'O\'yinni boshlash',
+  viewTopic: 'Mavzuni o\'qish',
+  allRightsReserved: 'Barcha huquqlar himoyalangan',
+  searchPlaceholder: 'Fan, mavzu yoki termin qidiring...',
+  categoryAll: 'Barchasi',
+  reset: 'Qayta boshlash',
+  submit: 'Yuborish',
+  close: 'Yopish',
+  back: 'Orqaga',
+  next: 'Keyingi',
+  previous: 'Oldingi',
+  congratulations: 'Tabriklaymiz!',
+  tryAgain: 'Qayta urinish',
+  score: 'Ball',
+  time: 'Vaqt',
+  seconds: 'soniya',
+  minutes: 'daqiqa',
+  accuracy: 'Aniqlik',
+
+  // Labs
+  labsTitle: 'Virtual biologik laboratoriyalar',
+  labsDesc: 'Universitet amaliy darslari uchun xavfsiz, interaktiv va vizual simulyatsiyalar majmuasi.',
+  labCellName: 'Hujayra laboratoriyasi',
+  labCellDesc: 'O\'simlik va hayvon hujayralari organoidlarini o\'rganish va solishtirish.',
+  labMitosisName: 'Mitoz laboratoriyasi',
+  labMitosisDesc: 'Hujayra bo\'linishi fazalari (profaza, metafaza, anafaza, telofaza) ketma-ketligi.',
+  labMicroscopeName: 'Mikroskop simulyatori',
+  labMicroscopeDesc: 'Prepartlarni 40x dan 1000x gacha kattalashtirib kuzatish va fokuslash.',
+  labPhotosynthesisName: 'Fotosintez tajribasi',
+  labPhotosynthesisDesc: 'Yorug\'lik, CO2 va haroratning kislorod ajralish tezligiga ta\'siri.',
+  labGeneticsName: 'Genetika va Pennet katagi',
+  labGeneticsDesc: 'Monoduragay va diduragay chatishtirishda genotip va fenotip ehtimolliklari.',
+  labEcosystemName: 'Ekotizim simulyatsiyasi',
+  labEcosystemDesc: 'Oziq zanjiri muvozanati: o\'txo\'rlar, yirtqichlar va produtsentlar dinamikasi.',
+  labHeartName: 'Yurak va qon aylanishi',
+  labHeartDesc: 'Yurak kameralari va katta/kichik qon aylanish doiralari anatomiyasi.',
+  labPlantName: 'O\'simlik anatomiyasi',
+  labPlantDesc: 'Ildiz, poya, barg qirqimlari, ksilema, floema va stomata transpiratsiyasi.',
+
+  // Games
+  gamesTitle: 'Interaktiv biologik o\'yinlar',
+  gamesDesc: 'Bilimlarni mustahkamlovchi, tezkor fikrlash va qiziqarli 6 ta intellektual o\'yin.',
+  gameOrganelle: 'Organoidni top',
+  gameDomino: 'Biologik domino',
+  gameSpeed: 'Tezkor 60 soniya',
+  gameSequence: 'Jarayonni tartibla',
+  gameWhoAmI: 'Kimman? — Biologik topishmoq',
+  gameDetective: 'Ekologik detektiv',
+
+  // AI Tutor
+  aiTutorTitle: 'AI Ustoz — Biologiya yordamchisi',
+  aiTutorDesc: 'Universitet dasturi asosida savollaringizga ilmiy va tushunarli javoblar oling.',
+  aiTutorInputPlaceholder: 'Fotosintezning yorug\'lik bosqichini tushuntiring, yoki DNK replikatsiyasi haqida so\'rang...',
+  aiTutorAskBtn: 'Savol berish',
+  aiTutorThinking: 'AI Ustoz ilmiy tahlil qilmoqda...',
+  aiDisclaimer: 'AI biologiya ta\'limiga yordamchi vositadir. Tibbiy tashxis qo\'ymaydi va xavfli moddalar yo\'riqnomasini bermaydi.',
+
+  // Uzbekistan Nature
+  uzbekistanTitle: 'O\'zbekiston biologik xilma-xilligi',
+  uzbekistanDesc: 'Tog\', cho\'l, daryo-to\'qay ekotizimlari, noyob relikt turlar va qishloq xo\'jaligi biologiyasi.',
+  redBook: 'Qizil kitob turlari',
+  endemics: 'Endemik turlar',
+  ecosystems: 'Ekotizimlar',
+  agriculture: 'Qishloq xo\'jaligi biotexnologiyasi',
+
+  // Nature Observer
+  observerTitle: 'Tabiat tadqiqotchisi (Citizen Science)',
+  observerDesc: 'Jonli tabiatdagi o\'simlik va hayvonot olami bo\'yicha o\'z kuzatuvlaringizni qo\'shing va ilmiy xaritani boyiting.',
+  addObservation: 'Yangi kuzatuv qo\'shish',
+  speciesName: 'Tur nomi',
+  scientificName: 'Lotincha ilmiy nomi',
+  region: 'Hudud / Viloyat',
+  habitat: 'Yashash muhiti (biotop)',
+  description: 'Batafsil tavsif va belgilar',
+
+  // Cabinet & Progress
+  myCabinet: 'Talaba shaxsiy kabineti',
+  learningProgress: 'O\'quv jarayoni',
+  completedTopics: 'O\'zlashtirilgan mavzular',
+  quizzesPassed: 'Topshirilgan testlar',
+  avgScore: 'O\'rtacha o\'zlashtirish',
+  studyStreak: 'Uzluksiz kunlik marafon',
+  badges: 'Yutuq nishonlari',
+  weeklyGoal: 'Haftalik o\'qish maqsadi',
+  teacherCabinet: 'O\'qituvchi kabineti',
+  adminPanel: 'Administrator boshqaruv paneli',
+
+  // Roles
+  roleStudent: 'Talaba',
+  roleTeacher: 'O\'qituvchi',
+  roleAdmin: 'Administrator'
+};

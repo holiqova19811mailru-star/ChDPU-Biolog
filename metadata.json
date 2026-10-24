@@ -1,0 +1,6 @@
+{
+  "name": "BioLab — Interactive Biology Learning Platform",
+  "description": "Universitet talabalari uchun zamonaviy interaktiv biologiya ta'lim platformasi: virtual laboratoriyalar, o'yinlar, testlar, 3D atlas va AI ustoz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
